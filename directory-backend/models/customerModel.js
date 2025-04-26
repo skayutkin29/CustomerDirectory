@@ -12,7 +12,7 @@ const addCustomer = async (data) => {
 
   const result = await pool.query(
     `INSERT INTO customers (name, email, company_name, phone, profile_picture_url, contract_start_date, contract_expire_date)
-     VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING *`,
+      VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING *`,
     [name, email, company_name, phone, profile_picture_url, contract_start_date, contract_expire_date]
   );
 

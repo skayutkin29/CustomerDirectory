@@ -48,19 +48,12 @@ function isValidCustomer(customer) {
     if (!dateRegex.test(customer.contract_expire_date)) return false;
   
     return true;
-  }
+}
 
 exports.getCustomers = async (req, res) => {
     const customers = await model.getAllCustomers();
     res.json(customers);
 };
-
-// exports.addCustomer = async (req, res) => {
-//     const customer = await model.addCustomer(req.body);
-//     res.status(201).json(customer);
-// };
-
-
 
 exports.addCustomer = async (req, res) => {
     const customer = req.body;
@@ -71,9 +64,7 @@ exports.addCustomer = async (req, res) => {
   
     const newCustomer = await model.addCustomer(customer);
     res.status(201).json(newCustomer);
-  };
-  
-
+};
 
 exports.deleteCustomer = async (req, res) => {
     const { id } = req.params;
