@@ -1,4 +1,4 @@
-1. go through general file and git/branch structure (show .env user and password)
+1. go through general file and git/branch structure (show .env user and password and git issue/branching)
 
 2. go through customer model and customer controller with unit testing
         - cd into directory-backend and run "npm test"
