@@ -47,7 +47,7 @@ function CustomerForm({ onCustomerAdded }) {
                     />
                 </div>
             ))}
-            <button type="submit">Add Customer</button>
+            <button type="submit" style={{ marginTop: 5, padding: 2 }}>Add Customer</button>
         </form>
     );
 }
