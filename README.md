@@ -74,3 +74,20 @@ Provide SQL schema.
 3. Time Expectation:
 2-3 hours for completion.
 Focus on functionality, clean code, and working integration.
+
+
+
+
+- backend started by running these commands from main directory:
+
+cd directory-backend
+npm install
+npm run dev
+
+- frontend started by running these commands from main directory (in another terminal):
+
+cd directory-frontend
+npm install
+npm start
+
+- this should automatically open the main page of functionality but if it doesn't automatically open, go to your browser and enter "localhost:3000" in the address bar.
