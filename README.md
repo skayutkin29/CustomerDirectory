@@ -77,17 +77,18 @@ Focus on functionality, clean code, and working integration.
 
 
 
+# How to Start
 
-- backend started by running these commands from main directory:
+backend started by running these commands from main directory:
 
-cd directory-backend
-npm install
-npm run dev
+- cd directory-backend
+- npm install
+- npm run dev
 
-- frontend started by running these commands from main directory (in another terminal):
+frontend started by running these commands from main directory (in another terminal):
 
-cd directory-frontend
-npm install
-npm start
+- cd directory-frontend
+- npm install
+- npm start
 
-- this should automatically open the main page of functionality but if it doesn't automatically open, go to your browser and enter "localhost:3000" in the address bar.
+this should automatically open the main page of functionality but if it doesn't automatically open, go to your browser and enter "localhost:3000" in the address bar.
